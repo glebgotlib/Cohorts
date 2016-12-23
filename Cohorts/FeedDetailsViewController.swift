@@ -22,6 +22,12 @@ class FeedDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = false
+        
+        let leftGesture = UISwipeGestureRecognizer(target: self, action: #selector(back))
+        leftGesture.direction = .right
+        self.view.addGestureRecognizer(leftGesture)
+        
+
         self.tabBarController?.tabBar.isHidden = true
         self.automaticallyAdjustsScrollViewInsets = false
         ///=================================================== ----- backBtn ----- ===================================================

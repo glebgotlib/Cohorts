@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		548795547F900FE34641CBE4 /* Pods_Cohorts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD4D39C2ABAC8D0EDBD28A1 /* Pods_Cohorts.framework */; };
 		8C2761261DD124A100862D98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2761251DD124A100862D98 /* AppDelegate.swift */; };
 		8C2761281DD124A100862D98 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2761271DD124A100862D98 /* LogInView.swift */; };
 		8C27612B1DD124A100862D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2761291DD124A100862D98 /* Main.storyboard */; };
@@ -94,11 +95,11 @@
 		8C66B4AE1DD7AB4F00DA6919 /* Back Chevron@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C66B4AB1DD7AB4F00DA6919 /* Back Chevron@2x.png */; };
 		8C66B4AF1DD7AB4F00DA6919 /* Back Chevron@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C66B4AC1DD7AB4F00DA6919 /* Back Chevron@3x.png */; };
 		8CB5669C1DE3AEE1007FCA65 /* Bundesarchiv_Bild_183-R98911,_Heinrich_Mann.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CB5669B1DE3AEE0007FCA65 /* Bundesarchiv_Bild_183-R98911,_Heinrich_Mann.jpg */; };
-		B0BC4A336CAC0C40AFF1ACF3 /* libPods-Cohorts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DF1777BB30A6DB5833DC91 /* libPods-Cohorts.a */; };
+		8CBDD29C1E02F3A10040B545 /* multimedia-photo-icon-31.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBDD29B1E02F3A10040B545 /* multimedia-photo-icon-31.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		25DF1777BB30A6DB5833DC91 /* libPods-Cohorts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cohorts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD4D39C2ABAC8D0EDBD28A1 /* Pods_Cohorts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cohorts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EC24B40F938E22B6B4A1B7 /* Pods-Cohorts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cohorts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cohorts/Pods-Cohorts.debug.xcconfig"; sourceTree = "<group>"; };
 		8C2761221DD124A100862D98 /* Cohorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Cohorts.app; path = Upstand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2761251DD124A100862D98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -189,6 +190,7 @@
 		8C66B4AB1DD7AB4F00DA6919 /* Back Chevron@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Back Chevron@2x.png"; path = "Cohorts/IMAGES/Back Chevron@2x.png"; sourceTree = "<group>"; };
 		8C66B4AC1DD7AB4F00DA6919 /* Back Chevron@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Back Chevron@3x.png"; path = "Cohorts/IMAGES/Back Chevron@3x.png"; sourceTree = "<group>"; };
 		8CB5669B1DE3AEE0007FCA65 /* Bundesarchiv_Bild_183-R98911,_Heinrich_Mann.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Bundesarchiv_Bild_183-R98911,_Heinrich_Mann.jpg"; path = "Cohorts/IMAGES/Bundesarchiv_Bild_183-R98911,_Heinrich_Mann.jpg"; sourceTree = "<group>"; };
+		8CBDD29B1E02F3A10040B545 /* multimedia-photo-icon-31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "multimedia-photo-icon-31.png"; path = "Cohorts/IMAGES/multimedia-photo-icon-31.png"; sourceTree = "<group>"; };
 		C4ECBD709A3DBC8C8D460910 /* Pods-Cohorts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cohorts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cohorts/Pods-Cohorts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,7 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0BC4A336CAC0C40AFF1ACF3 /* libPods-Cohorts.a in Frameworks */,
+				548795547F900FE34641CBE4 /* Pods_Cohorts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +244,7 @@
 		8C2761371DD1F30D00862D98 /* IMAGES */ = {
 			isa = PBXGroup;
 			children = (
+				8CBDD29B1E02F3A10040B545 /* multimedia-photo-icon-31.png */,
 				8CB5669B1DE3AEE0007FCA65 /* Bundesarchiv_Bild_183-R98911,_Heinrich_Mann.jpg */,
 				8C2794621DDDD652000361CB /* Avatar.png */,
 				8C2794631DDDD652000361CB /* Avatar@2x.png */,
@@ -425,7 +428,7 @@
 		F84AC01FF23538256FF98CAE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				25DF1777BB30A6DB5833DC91 /* libPods-Cohorts.a */,
+				6FD4D39C2ABAC8D0EDBD28A1 /* Pods_Cohorts.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -493,6 +496,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CBDD29C1E02F3A10040B545 /* multimedia-photo-icon-31.png in Resources */,
 				8C66B48D1DD77ABB00DA6919 /* Image1@3x.png in Resources */,
 				8C2761501DD25E1B00862D98 /* sparkle-1@2x.png in Resources */,
 				8C2761301DD124A100862D98 /* LaunchScreen.storyboard in Resources */,

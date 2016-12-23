@@ -52,26 +52,26 @@ class FeedLine: UIViewController, UICollectionViewDataSource, UICollectionViewDe
         
         if(indexPath.row == 0 || indexPath.row == 7){
             let reuseIdentifier = "FirstCollectionViewCell"
-            // get a reference to our storyboard cell
+
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! FirstCollectionViewCell
-            // Use the outlet in our custom class to get a reference to the UILabel in the cell
+
             cell.first_lab.text = self.items[indexPath.item]
             cell.layer.borderWidth = 1.0
             cell.layer.borderColor = UIColor.lightGray.cgColor
-//          cell.backgroundColor = UIColor.cyan // make cell more visible in our example project
+
             return cell
         }
         else if(indexPath.row == 1 || indexPath.row == 4)
         {
             let reuseIdentifier = "SecondCollectionViewCell"
-            // get a reference to our storyboard cell
+
             let cell1 = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! SecondCollectionViewCell
             
-            // Use the outlet in our custom class to get a reference to the UILabel in the cell
+
             cell1.first_lab.text = self.items[indexPath.item]
             cell1.layer.borderWidth = 1.0
             cell1.layer.borderColor = UIColor.lightGray.cgColor
-            //        cell.backgroundColor = UIColor.cyan // make cell more visible in our example project
+
             return cell1
         }
         else
