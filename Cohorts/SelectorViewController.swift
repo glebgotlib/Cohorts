@@ -1,29 +1,24 @@
 //
-//  SettingsViewController.swift
+//  SelectorViewController.swift
 //  Cohorts
 //
-//  Created by Gotlib on 12.11.16.
-//  Copyright © 2016 Yog.group. All rights reserved.
+//  Created by Gotlib on 10.01.17.
+//  Copyright © 2017 Yog.group. All rights reserved.
 //
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class SelectorViewController: UIViewController {
 
-    @IBOutlet weak var signOutButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Settings"
-        signOutButton.layer.cornerRadius = 3;
-        signOutButton.layer.borderWidth = 1;
-        signOutButton.layer.borderColor = UIColor.gray.cgColor
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(addTapped))
+
         // Do any additional setup after loading the view.
     }
-
-
-    @IBAction func sign_out_action(_ sender: Any) {
-    }
+    func addTapped() {
     
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

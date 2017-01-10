@@ -8,6 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		548795547F900FE34641CBE4 /* Pods_Cohorts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD4D39C2ABAC8D0EDBD28A1 /* Pods_Cohorts.framework */; };
+		8C10A5891E24F6DA00D5BDD9 /* Group 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A57C1E24F6DA00D5BDD9 /* Group 1.png */; };
+		8C10A58A1E24F6DA00D5BDD9 /* Group 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A57D1E24F6DA00D5BDD9 /* Group 1@2x.png */; };
+		8C10A58B1E24F6DA00D5BDD9 /* Group 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A57E1E24F6DA00D5BDD9 /* Group 1@3x.png */; };
+		8C10A58C1E24F6DA00D5BDD9 /* Group 2@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A57F1E24F6DA00D5BDD9 /* Group 2@1x.png */; };
+		8C10A58D1E24F6DA00D5BDD9 /* Group 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5801E24F6DA00D5BDD9 /* Group 2@2x.png */; };
+		8C10A58E1E24F6DA00D5BDD9 /* Group 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5811E24F6DA00D5BDD9 /* Group 2@3x.png */; };
+		8C10A58F1E24F6DA00D5BDD9 /* Group 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5821E24F6DA00D5BDD9 /* Group 3.png */; };
+		8C10A5901E24F6DA00D5BDD9 /* Group 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5831E24F6DA00D5BDD9 /* Group 3@2x.png */; };
+		8C10A5911E24F6DA00D5BDD9 /* Group 3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5841E24F6DA00D5BDD9 /* Group 3@3x.png */; };
+		8C10A5921E24F6DA00D5BDD9 /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5851E24F6DA00D5BDD9 /* Group.png */; };
+		8C10A5931E24F6DA00D5BDD9 /* Group@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5861E24F6DA00D5BDD9 /* Group@1x.png */; };
+		8C10A5941E24F6DA00D5BDD9 /* Group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5871E24F6DA00D5BDD9 /* Group@2x.png */; };
+		8C10A5951E24F6DA00D5BDD9 /* Group@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5881E24F6DA00D5BDD9 /* Group@3x.png */; };
+		8C10A5991E24F98300D5BDD9 /* Card+Card Status 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5961E24F98300D5BDD9 /* Card+Card Status 1.png */; };
+		8C10A59A1E24F98300D5BDD9 /* Card+Card Status 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5971E24F98300D5BDD9 /* Card+Card Status 1@2x.png */; };
+		8C10A59B1E24F98300D5BDD9 /* Card+Card Status 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5981E24F98300D5BDD9 /* Card+Card Status 1@3x.png */; };
+		8C10A59D1E24FB6F00D5BDD9 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C10A59C1E24FB6F00D5BDD9 /* SelectorViewController.swift */; };
+		8C10A5AB1E253A2100D5BDD9 /* icon_ios_bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A59F1E253A2100D5BDD9 /* icon_ios_bell.png */; };
+		8C10A5AC1E253A2100D5BDD9 /* icon_ios_bell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5A01E253A2100D5BDD9 /* icon_ios_bell@2x.png */; };
+		8C10A5AD1E253A2100D5BDD9 /* icon_ios_bell@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5A11E253A2100D5BDD9 /* icon_ios_bell@3x.png */; };
+		8C10A5AE1E253A2100D5BDD9 /* icon_ios_glasses.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5A21E253A2100D5BDD9 /* icon_ios_glasses.png */; };
+		8C10A5AF1E253A2100D5BDD9 /* icon_ios_glasses@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5A31E253A2100D5BDD9 /* icon_ios_glasses@2x.png */; };
+		8C10A5B01E253A2100D5BDD9 /* icon_ios_glasses@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5A41E253A2100D5BDD9 /* icon_ios_glasses@3x.png */; };
+		8C10A5B11E253A2100D5BDD9 /* icon_ios_history.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5A51E253A2100D5BDD9 /* icon_ios_history.png */; };
+		8C10A5B21E253A2100D5BDD9 /* icon_ios_history@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5A61E253A2100D5BDD9 /* icon_ios_history@2x.png */; };
+		8C10A5B31E253A2100D5BDD9 /* icon_ios_history@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5A71E253A2100D5BDD9 /* icon_ios_history@3x.png */; };
+		8C10A5B41E253A2100D5BDD9 /* Rectangle 110.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5A81E253A2100D5BDD9 /* Rectangle 110.png */; };
+		8C10A5B51E253A2200D5BDD9 /* Rectangle 110@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5A91E253A2100D5BDD9 /* Rectangle 110@2x.png */; };
+		8C10A5B61E253A2200D5BDD9 /* Rectangle 110@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5AA1E253A2100D5BDD9 /* Rectangle 110@3x.png */; };
+		8C10A5BA1E253B4300D5BDD9 /* icon_ios_global.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5B71E253B4300D5BDD9 /* icon_ios_global.png */; };
+		8C10A5BB1E253B4300D5BDD9 /* icon_ios_global@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5B81E253B4300D5BDD9 /* icon_ios_global@2x.png */; };
+		8C10A5BC1E253B4300D5BDD9 /* icon_ios_global@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C10A5B91E253B4300D5BDD9 /* icon_ios_global@3x.png */; };
+		8C10A5BE1E2596EB00D5BDD9 /* PasswordSecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C10A5BD1E2596EB00D5BDD9 /* PasswordSecurityViewController.swift */; };
 		8C2761261DD124A100862D98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2761251DD124A100862D98 /* AppDelegate.swift */; };
 		8C2761281DD124A100862D98 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2761271DD124A100862D98 /* LogInView.swift */; };
 		8C27612B1DD124A100862D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2761291DD124A100862D98 /* Main.storyboard */; };
@@ -101,6 +134,39 @@
 /* Begin PBXFileReference section */
 		6FD4D39C2ABAC8D0EDBD28A1 /* Pods_Cohorts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cohorts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EC24B40F938E22B6B4A1B7 /* Pods-Cohorts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cohorts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cohorts/Pods-Cohorts.debug.xcconfig"; sourceTree = "<group>"; };
+		8C10A57C1E24F6DA00D5BDD9 /* Group 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 1.png"; path = "Cohorts/IMAGES/Group 1.png"; sourceTree = "<group>"; };
+		8C10A57D1E24F6DA00D5BDD9 /* Group 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 1@2x.png"; path = "Cohorts/IMAGES/Group 1@2x.png"; sourceTree = "<group>"; };
+		8C10A57E1E24F6DA00D5BDD9 /* Group 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 1@3x.png"; path = "Cohorts/IMAGES/Group 1@3x.png"; sourceTree = "<group>"; };
+		8C10A57F1E24F6DA00D5BDD9 /* Group 2@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 2@1x.png"; path = "Cohorts/IMAGES/Group 2@1x.png"; sourceTree = "<group>"; };
+		8C10A5801E24F6DA00D5BDD9 /* Group 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 2@2x.png"; path = "Cohorts/IMAGES/Group 2@2x.png"; sourceTree = "<group>"; };
+		8C10A5811E24F6DA00D5BDD9 /* Group 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 2@3x.png"; path = "Cohorts/IMAGES/Group 2@3x.png"; sourceTree = "<group>"; };
+		8C10A5821E24F6DA00D5BDD9 /* Group 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 3.png"; path = "Cohorts/IMAGES/Group 3.png"; sourceTree = "<group>"; };
+		8C10A5831E24F6DA00D5BDD9 /* Group 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 3@2x.png"; path = "Cohorts/IMAGES/Group 3@2x.png"; sourceTree = "<group>"; };
+		8C10A5841E24F6DA00D5BDD9 /* Group 3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 3@3x.png"; path = "Cohorts/IMAGES/Group 3@3x.png"; sourceTree = "<group>"; };
+		8C10A5851E24F6DA00D5BDD9 /* Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Group.png; path = Cohorts/IMAGES/Group.png; sourceTree = "<group>"; };
+		8C10A5861E24F6DA00D5BDD9 /* Group@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group@1x.png"; path = "Cohorts/IMAGES/Group@1x.png"; sourceTree = "<group>"; };
+		8C10A5871E24F6DA00D5BDD9 /* Group@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group@2x.png"; path = "Cohorts/IMAGES/Group@2x.png"; sourceTree = "<group>"; };
+		8C10A5881E24F6DA00D5BDD9 /* Group@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group@3x.png"; path = "Cohorts/IMAGES/Group@3x.png"; sourceTree = "<group>"; };
+		8C10A5961E24F98300D5BDD9 /* Card+Card Status 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Card+Card Status 1.png"; path = "Cohorts/IMAGES/Card+Card Status 1.png"; sourceTree = "<group>"; };
+		8C10A5971E24F98300D5BDD9 /* Card+Card Status 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Card+Card Status 1@2x.png"; path = "Cohorts/IMAGES/Card+Card Status 1@2x.png"; sourceTree = "<group>"; };
+		8C10A5981E24F98300D5BDD9 /* Card+Card Status 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Card+Card Status 1@3x.png"; path = "Cohorts/IMAGES/Card+Card Status 1@3x.png"; sourceTree = "<group>"; };
+		8C10A59C1E24FB6F00D5BDD9 /* SelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectorViewController.swift; sourceTree = "<group>"; };
+		8C10A59F1E253A2100D5BDD9 /* icon_ios_bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_ios_bell.png; path = "Cohorts/IMAGES/untitled folder/icon_ios_bell.png"; sourceTree = "<group>"; };
+		8C10A5A01E253A2100D5BDD9 /* icon_ios_bell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_ios_bell@2x.png"; path = "Cohorts/IMAGES/untitled folder/icon_ios_bell@2x.png"; sourceTree = "<group>"; };
+		8C10A5A11E253A2100D5BDD9 /* icon_ios_bell@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_ios_bell@3x.png"; path = "Cohorts/IMAGES/untitled folder/icon_ios_bell@3x.png"; sourceTree = "<group>"; };
+		8C10A5A21E253A2100D5BDD9 /* icon_ios_glasses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_ios_glasses.png; path = "Cohorts/IMAGES/untitled folder/icon_ios_glasses.png"; sourceTree = "<group>"; };
+		8C10A5A31E253A2100D5BDD9 /* icon_ios_glasses@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_ios_glasses@2x.png"; path = "Cohorts/IMAGES/untitled folder/icon_ios_glasses@2x.png"; sourceTree = "<group>"; };
+		8C10A5A41E253A2100D5BDD9 /* icon_ios_glasses@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_ios_glasses@3x.png"; path = "Cohorts/IMAGES/untitled folder/icon_ios_glasses@3x.png"; sourceTree = "<group>"; };
+		8C10A5A51E253A2100D5BDD9 /* icon_ios_history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_ios_history.png; path = "Cohorts/IMAGES/untitled folder/icon_ios_history.png"; sourceTree = "<group>"; };
+		8C10A5A61E253A2100D5BDD9 /* icon_ios_history@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_ios_history@2x.png"; path = "Cohorts/IMAGES/untitled folder/icon_ios_history@2x.png"; sourceTree = "<group>"; };
+		8C10A5A71E253A2100D5BDD9 /* icon_ios_history@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_ios_history@3x.png"; path = "Cohorts/IMAGES/untitled folder/icon_ios_history@3x.png"; sourceTree = "<group>"; };
+		8C10A5A81E253A2100D5BDD9 /* Rectangle 110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 110.png"; path = "Cohorts/IMAGES/untitled folder/Rectangle 110.png"; sourceTree = "<group>"; };
+		8C10A5A91E253A2100D5BDD9 /* Rectangle 110@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 110@2x.png"; path = "Cohorts/IMAGES/untitled folder/Rectangle 110@2x.png"; sourceTree = "<group>"; };
+		8C10A5AA1E253A2100D5BDD9 /* Rectangle 110@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 110@3x.png"; path = "Cohorts/IMAGES/untitled folder/Rectangle 110@3x.png"; sourceTree = "<group>"; };
+		8C10A5B71E253B4300D5BDD9 /* icon_ios_global.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_ios_global.png; path = "Cohorts/IMAGES/untitled folder/icon_ios_global.png"; sourceTree = "<group>"; };
+		8C10A5B81E253B4300D5BDD9 /* icon_ios_global@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_ios_global@2x.png"; path = "Cohorts/IMAGES/untitled folder/icon_ios_global@2x.png"; sourceTree = "<group>"; };
+		8C10A5B91E253B4300D5BDD9 /* icon_ios_global@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_ios_global@3x.png"; path = "Cohorts/IMAGES/untitled folder/icon_ios_global@3x.png"; sourceTree = "<group>"; };
+		8C10A5BD1E2596EB00D5BDD9 /* PasswordSecurityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordSecurityViewController.swift; sourceTree = "<group>"; };
 		8C2761221DD124A100862D98 /* Cohorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Cohorts.app; path = Upstand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2761251DD124A100862D98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C2761271DD124A100862D98 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
@@ -206,6 +272,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C10A57B1E24F6B800D5BDD9 /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				8C10A5961E24F98300D5BDD9 /* Card+Card Status 1.png */,
+				8C10A5971E24F98300D5BDD9 /* Card+Card Status 1@2x.png */,
+				8C10A5981E24F98300D5BDD9 /* Card+Card Status 1@3x.png */,
+				8C10A57C1E24F6DA00D5BDD9 /* Group 1.png */,
+				8C10A57D1E24F6DA00D5BDD9 /* Group 1@2x.png */,
+				8C10A57E1E24F6DA00D5BDD9 /* Group 1@3x.png */,
+				8C10A57F1E24F6DA00D5BDD9 /* Group 2@1x.png */,
+				8C10A5801E24F6DA00D5BDD9 /* Group 2@2x.png */,
+				8C10A5811E24F6DA00D5BDD9 /* Group 2@3x.png */,
+				8C10A5821E24F6DA00D5BDD9 /* Group 3.png */,
+				8C10A5831E24F6DA00D5BDD9 /* Group 3@2x.png */,
+				8C10A5841E24F6DA00D5BDD9 /* Group 3@3x.png */,
+				8C10A5851E24F6DA00D5BDD9 /* Group.png */,
+				8C10A5861E24F6DA00D5BDD9 /* Group@1x.png */,
+				8C10A5871E24F6DA00D5BDD9 /* Group@2x.png */,
+				8C10A5881E24F6DA00D5BDD9 /* Group@3x.png */,
+			);
+			name = Appearance;
+			sourceTree = "<group>";
+		};
+		8C10A59E1E2539FB00D5BDD9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8C10A5B71E253B4300D5BDD9 /* icon_ios_global.png */,
+				8C10A5B81E253B4300D5BDD9 /* icon_ios_global@2x.png */,
+				8C10A5B91E253B4300D5BDD9 /* icon_ios_global@3x.png */,
+				8C10A59F1E253A2100D5BDD9 /* icon_ios_bell.png */,
+				8C10A5A01E253A2100D5BDD9 /* icon_ios_bell@2x.png */,
+				8C10A5A11E253A2100D5BDD9 /* icon_ios_bell@3x.png */,
+				8C10A5A21E253A2100D5BDD9 /* icon_ios_glasses.png */,
+				8C10A5A31E253A2100D5BDD9 /* icon_ios_glasses@2x.png */,
+				8C10A5A41E253A2100D5BDD9 /* icon_ios_glasses@3x.png */,
+				8C10A5A51E253A2100D5BDD9 /* icon_ios_history.png */,
+				8C10A5A61E253A2100D5BDD9 /* icon_ios_history@2x.png */,
+				8C10A5A71E253A2100D5BDD9 /* icon_ios_history@3x.png */,
+				8C10A5A81E253A2100D5BDD9 /* Rectangle 110.png */,
+				8C10A5A91E253A2100D5BDD9 /* Rectangle 110@2x.png */,
+				8C10A5AA1E253A2100D5BDD9 /* Rectangle 110@3x.png */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
 		8C2761191DD124A000862D98 = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +355,8 @@
 		8C2761371DD1F30D00862D98 /* IMAGES */ = {
 			isa = PBXGroup;
 			children = (
+				8C10A59E1E2539FB00D5BDD9 /* Settings */,
+				8C10A57B1E24F6B800D5BDD9 /* Appearance */,
 				8CBDD29B1E02F3A10040B545 /* multimedia-photo-icon-31.png */,
 				8CB5669B1DE3AEE0007FCA65 /* Bundesarchiv_Bild_183-R98911,_Heinrich_Mann.jpg */,
 				8C2794621DDDD652000361CB /* Avatar.png */,
@@ -396,6 +509,7 @@
 			isa = PBXGroup;
 			children = (
 				8C66B4A21DD7976A00DA6919 /* AddViewController.swift */,
+				8C10A59C1E24FB6F00D5BDD9 /* SelectorViewController.swift */,
 			);
 			name = Add;
 			sourceTree = "<group>";
@@ -404,6 +518,7 @@
 			isa = PBXGroup;
 			children = (
 				8C66B4A51DD797C600DA6919 /* SettingsViewController.swift */,
+				8C10A5BD1E2596EB00D5BDD9 /* PasswordSecurityViewController.swift */,
 			);
 			name = Settings;
 			sourceTree = "<group>";
@@ -498,15 +613,25 @@
 			files = (
 				8CBDD29C1E02F3A10040B545 /* multimedia-photo-icon-31.png in Resources */,
 				8C66B48D1DD77ABB00DA6919 /* Image1@3x.png in Resources */,
+				8C10A5B31E253A2100D5BDD9 /* icon_ios_history@3x.png in Resources */,
+				8C10A5BC1E253B4300D5BDD9 /* icon_ios_global@3x.png in Resources */,
 				8C2761501DD25E1B00862D98 /* sparkle-1@2x.png in Resources */,
+				8C10A5B51E253A2200D5BDD9 /* Rectangle 110@2x.png in Resources */,
 				8C2761301DD124A100862D98 /* LaunchScreen.storyboard in Resources */,
+				8C10A5AD1E253A2100D5BDD9 /* icon_ios_bell@3x.png in Resources */,
 				8C2761541DD2605D00862D98 /* Alberto-Mateo-Travel-Photographer-Piccadilly-Circus-Neons-London-United-Kingdom-FEAT.jpg in Resources */,
 				8C2761A51DD48C3C00862D98 /* Settings Icon white@3x.png in Resources */,
 				8C2761951DD48C3C00862D98 /* Feed Icon@2x.png in Resources */,
+				8C10A5B21E253A2100D5BDD9 /* icon_ios_history@2x.png in Resources */,
 				8C2761B11DD4CF1200862D98 /* Discard@2x.png in Resources */,
 				8C27615A1DD2640A00862D98 /* Bitmap@2x.png in Resources */,
+				8C10A5911E24F6DA00D5BDD9 /* Group 3@3x.png in Resources */,
+				8C10A5941E24F6DA00D5BDD9 /* Group@2x.png in Resources */,
+				8C10A58F1E24F6DA00D5BDD9 /* Group 3.png in Resources */,
 				8C27612D1DD124A100862D98 /* Assets.xcassets in Resources */,
+				8C10A5931E24F6DA00D5BDD9 /* Group@1x.png in Resources */,
 				8C2761941DD48C3C00862D98 /* Feed Icon.png in Resources */,
+				8C10A58E1E24F6DA00D5BDD9 /* Group 2@3x.png in Resources */,
 				8C2794671DDDD652000361CB /* Avatar@3x.png in Resources */,
 				8C2761B01DD4CF1200862D98 /* Discard.png in Resources */,
 				8C2761481DD1F31E00862D98 /* Facebook@2x.png in Resources */,
@@ -516,21 +641,27 @@
 				8C2761971DD48C3C00862D98 /* History white.png in Resources */,
 				8C2761A21DD48C3C00862D98 /* Plus Icon@3x.png in Resources */,
 				8C27618D1DD48C3C00862D98 /* Bell white@3x.png in Resources */,
+				8C10A5B61E253A2200D5BDD9 /* Rectangle 110@3x.png in Resources */,
 				8C27612B1DD124A100862D98 /* Main.storyboard in Resources */,
+				8C10A58B1E24F6DA00D5BDD9 /* Group 1@3x.png in Resources */,
 				8C2761881DD48C3C00862D98 /* BBC avatar.png in Resources */,
 				8C27614D1DD25DE200862D98 /* sparkle-1.png in Resources */,
 				8C66B48B1DD77ABB00DA6919 /* Image1.png in Resources */,
 				8C2761991DD48C3C00862D98 /* History white@3x.png in Resources */,
 				8C2761461DD1F31E00862D98 /* COHORTS@3x.png in Resources */,
 				8C2761A31DD48C3C00862D98 /* Settings Icon white.png in Resources */,
+				8C10A5AB1E253A2100D5BDD9 /* icon_ios_bell.png in Resources */,
 				8C66B4AD1DD7AB4F00DA6919 /* Back Chevron.png in Resources */,
 				8C2761431DD1F31E00862D98 /* Cancel@3x.png in Resources */,
+				8C10A58A1E24F6DA00D5BDD9 /* Group 1@2x.png in Resources */,
 				8C27615B1DD2640A00862D98 /* Bitmap@3x.png in Resources */,
 				8C2761A61DD48C3C00862D98 /* Settings Icon.png in Resources */,
 				8C2761B41DD4CF1200862D98 /* Promote@2x.png in Resources */,
 				8C2761961DD48C3C00862D98 /* Feed Icon@3x.png in Resources */,
 				8C2761411DD1F31E00862D98 /* Cancel.png in Resources */,
+				8C10A59B1E24F98300D5BDD9 /* Card+Card Status 1@3x.png in Resources */,
 				8C66B4911DD77AC900DA6919 /* Image.png in Resources */,
+				8C10A5901E24F6DA00D5BDD9 /* Group 3@2x.png in Resources */,
 				8C27618A1DD48C3C00862D98 /* BBC avatar@3x.png in Resources */,
 				8C2761B31DD4CF1200862D98 /* Promote.png in Resources */,
 				8C27618F1DD48C3C00862D98 /* Bell@2x.png in Resources */,
@@ -539,13 +670,19 @@
 				8C2794661DDDD652000361CB /* Avatar@2x.png in Resources */,
 				8C27618C1DD48C3C00862D98 /* Bell white@2x.png in Resources */,
 				8C27619E1DD48C3C00862D98 /* Plus Icon white@2x.png in Resources */,
+				8C10A59A1E24F98300D5BDD9 /* Card+Card Status 1@2x.png in Resources */,
+				8C10A5921E24F6DA00D5BDD9 /* Group.png in Resources */,
 				8C2794651DDDD652000361CB /* Avatar.png in Resources */,
 				8C2761921DD48C3C00862D98 /* Feed Icon white@2x.png in Resources */,
+				8C10A58C1E24F6DA00D5BDD9 /* Group 2@1x.png in Resources */,
+				8C10A5891E24F6DA00D5BDD9 /* Group 1.png in Resources */,
 				8C2761A01DD48C3C00862D98 /* Plus Icon.png in Resources */,
+				8C10A5B41E253A2100D5BDD9 /* Rectangle 110.png in Resources */,
 				8C66B4931DD77AC900DA6919 /* Image@3x.png in Resources */,
 				8C2761891DD48C3C00862D98 /* BBC avatar@2x.png in Resources */,
 				8C2761491DD1F31E00862D98 /* Facebook@3x.png in Resources */,
 				8C2761911DD48C3C00862D98 /* Feed Icon white.png in Resources */,
+				8C10A5BB1E253B4300D5BDD9 /* icon_ios_global@2x.png in Resources */,
 				8C2761A11DD48C3C00862D98 /* Plus Icon@2x.png in Resources */,
 				8C27618E1DD48C3C00862D98 /* Bell.png in Resources */,
 				8C2761B51DD4CF1200862D98 /* Promote@3x.png in Resources */,
@@ -554,20 +691,29 @@
 				8C2761B21DD4CF1200862D98 /* Discard@3x.png in Resources */,
 				8C2761451DD1F31E00862D98 /* COHORTS@2x.png in Resources */,
 				8C2761441DD1F31E00862D98 /* COHORTS.png in Resources */,
+				8C10A5951E24F6DA00D5BDD9 /* Group@3x.png in Resources */,
 				8C66B4AE1DD7AB4F00DA6919 /* Back Chevron@2x.png in Resources */,
 				8C2761A81DD48C3C00862D98 /* Settings Icon@3x.png in Resources */,
 				8C66B4AF1DD7AB4F00DA6919 /* Back Chevron@3x.png in Resources */,
 				8C2761421DD1F31E00862D98 /* Cancel@2x.png in Resources */,
 				8C27614C1DD25DE200862D98 /* Oval 25.png in Resources */,
+				8C10A5AC1E253A2100D5BDD9 /* icon_ios_bell@2x.png in Resources */,
 				8C2761551DD2605D00862D98 /* London-360x400.jpg in Resources */,
 				8C2761A41DD48C3C00862D98 /* Settings Icon white@2x.png in Resources */,
+				8C10A5B11E253A2100D5BDD9 /* icon_ios_history.png in Resources */,
 				8C2761931DD48C3C00862D98 /* Feed Icon white@3x.png in Resources */,
+				8C10A5AE1E253A2100D5BDD9 /* icon_ios_glasses.png in Resources */,
 				8C2761511DD25E1B00862D98 /* sparkle-1@3x.png in Resources */,
+				8C10A58D1E24F6DA00D5BDD9 /* Group 2@2x.png in Resources */,
 				8C27619C1DD48C3C00862D98 /* History@3x.png in Resources */,
 				8C27619F1DD48C3C00862D98 /* Plus Icon white@3x.png in Resources */,
 				8C66B4921DD77AC900DA6919 /* Image@2x.png in Resources */,
+				8C10A5BA1E253B4300D5BDD9 /* icon_ios_global.png in Resources */,
+				8C10A5B01E253A2100D5BDD9 /* icon_ios_glasses@3x.png in Resources */,
 				8C2761591DD2640900862D98 /* Bitmap.png in Resources */,
+				8C10A5AF1E253A2100D5BDD9 /* icon_ios_glasses@2x.png in Resources */,
 				8C2761471DD1F31E00862D98 /* Facebook@1x.png in Resources */,
+				8C10A5991E24F98300D5BDD9 /* Card+Card Status 1.png in Resources */,
 				8C27618B1DD48C3C00862D98 /* Bell white.png in Resources */,
 				8CB5669C1DE3AEE1007FCA65 /* Bundesarchiv_Bild_183-R98911,_Heinrich_Mann.jpg in Resources */,
 			);
@@ -632,10 +778,12 @@
 				8C27615D1DD265F700862D98 /* FeedLine.swift in Sources */,
 				8C66B4A91DD7A39100DA6919 /* NotificationTableViewCell.swift in Sources */,
 				8C66B4951DD77C0100DA6919 /* HistoryTableViewCell.swift in Sources */,
+				8C10A59D1E24FB6F00D5BDD9 /* SelectorViewController.swift in Sources */,
 				8C2794691DDDD683000361CB /* RegistrationViewController.swift in Sources */,
 				8C66B4A31DD7976A00DA6919 /* AddViewController.swift in Sources */,
 				8C2761281DD124A100862D98 /* LogInView.swift in Sources */,
 				8C2761611DD268E800862D98 /* SecondCollectionViewCell.swift in Sources */,
+				8C10A5BE1E2596EB00D5BDD9 /* PasswordSecurityViewController.swift in Sources */,
 				8C66B4A01DD796AA00DA6919 /* NotificationsViewController.swift in Sources */,
 				8C2761661DD4885900862D98 /* FeedDetailsViewController.swift in Sources */,
 				8C66B4971DD77C1900DA6919 /* HistoryViewController.swift in Sources */,
