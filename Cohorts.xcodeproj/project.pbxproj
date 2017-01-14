@@ -167,7 +167,7 @@
 		8C10A5B81E253B4300D5BDD9 /* icon_ios_global@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_ios_global@2x.png"; path = "Cohorts/IMAGES/untitled folder/icon_ios_global@2x.png"; sourceTree = "<group>"; };
 		8C10A5B91E253B4300D5BDD9 /* icon_ios_global@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_ios_global@3x.png"; path = "Cohorts/IMAGES/untitled folder/icon_ios_global@3x.png"; sourceTree = "<group>"; };
 		8C10A5BD1E2596EB00D5BDD9 /* PasswordSecurityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordSecurityViewController.swift; sourceTree = "<group>"; };
-		8C2761221DD124A100862D98 /* Cohorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Cohorts.app; path = Upstand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2761221DD124A100862D98 /* Upstand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Upstand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2761251DD124A100862D98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C2761271DD124A100862D98 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		8C27612A1DD124A100862D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -331,7 +331,7 @@
 		8C2761231DD124A100862D98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C2761221DD124A100862D98 /* Cohorts.app */,
+				8C2761221DD124A100862D98 /* Upstand.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -568,7 +568,7 @@
 			);
 			name = Cohorts;
 			productName = Cohorts;
-			productReference = 8C2761221DD124A100862D98 /* Cohorts.app */;
+			productReference = 8C2761221DD124A100862D98 /* Upstand.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
