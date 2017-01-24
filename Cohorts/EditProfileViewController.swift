@@ -1,36 +1,34 @@
 //
-//  PasswordSecurityViewController.swift
+//  EditProfileViewController.swift
 //  Cohorts
 //
-//  Created by Gotlib on 11.01.17.
+//  Created by Gotlib on 22.01.17.
 //  Copyright © 2017 Yog.group. All rights reserved.
 //
 
 import UIKit
 
-class PasswordSecurityViewController: UIViewController {
+class EditProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.tabBarController?.tabBar.isHidden = true
         self.automaticallyAdjustsScrollViewInsets = false
+        self.title = "Edit profile"
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Save", style: .plain, target: self, action: #selector(saveTapped))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(cancelTapped))
+
+
         // Do any additional setup after loading the view.
     }
-    @IBOutlet weak var verify_view: UIView!
-    @IBOutlet weak var email_view: UIView!
 
-    @IBAction func switch_position(_ sender: UISwitch) {
-        if switcher.isOn {
-            verify_view.isHidden = false
-            email_view.isHidden = false
-        } else {
-            verify_view.isHidden = true
-            email_view.isHidden = true
-        }
+    func saveTapped() {
+        
     }
-
-    @IBOutlet weak var switcher: UISwitch!
+    func cancelTapped() {
+        _ = navigationController?.popViewController(animated: true)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

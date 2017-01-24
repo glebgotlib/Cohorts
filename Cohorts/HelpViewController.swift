@@ -1,50 +1,40 @@
 //
-//  SettingsViewController.swift
+//  HelpViewController.swift
 //  Cohorts
 //
-//  Created by Gotlib on 12.11.16.
-//  Copyright © 2016 Yog.group. All rights reserved.
+//  Created by Gotlib on 22.01.17.
+//  Copyright © 2017 Yog.group. All rights reserved.
 //
 
 import UIKit
 import MessageUI
 
-class SettingsViewController: UIViewController, MFMailComposeViewControllerDelegate  {
+class HelpViewController: UIViewController, UIWebViewDelegate, MFMailComposeViewControllerDelegate {
 
-    @IBOutlet weak var signOutButton: UIButton!
-    @IBOutlet weak var pass_and_secur: UIButton!
-    @IBOutlet weak var connected_acc: UIButton!
-    @IBOutlet weak var region_location: UIButton!
-    @IBOutlet weak var notifications: UIButton!
-    @IBOutlet weak var selected_topics: UIButton!
-    @IBOutlet weak var automaticaly_adj_label: UILabel!
-    @IBOutlet weak var help: UIButton!
-    @IBOutlet weak var report_problem: UIButton!
-    @IBOutlet weak var give_feedback: UIButton!
-    @IBOutlet weak var privicy_policy: UIButton!
-    @IBOutlet weak var terms_of_use: UIButton!
-    @IBOutlet weak var sign_out: UIButton!
-    @IBOutlet weak var Copiright_label: UILabel!
-    
-    
-    
+    @IBOutlet weak var web_view: UIWebView!
+    @IBOutlet weak var helpfull_label: UILabel!
+    @IBOutlet weak var contact_us_button: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Settings"
-        signOutButton.layer.cornerRadius = 3;
-        signOutButton.layer.borderWidth = 1;
-        signOutButton.layer.borderColor = UIColor.gray.cgColor//E8E8E8
+        
+        self.tabBarController?.tabBar.isHidden = true
+        self.automaticallyAdjustsScrollViewInsets = false
+        self.title = "Help"
+        web_view.delegate = self
+        web_view.loadRequest(URLRequest(url: URL(string: "http://apple.com")!))
+
         // Do any additional setup after loading the view.
     }
 
-
-    @IBAction func sign_out_action(_ sender: Any) {
-    }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func contact_us_action(_ sender: Any) {
+        self.sendEmail()
+    }
+    
     func mailComposeController(_ controller: MFMailComposeViewController,
                                didFinishWith result: MFMailComposeResult, error: Error?) {
         // Check the result or perform other tasks.
@@ -62,14 +52,6 @@ class SettingsViewController: UIViewController, MFMailComposeViewControllerDeleg
         
         present(mailVC, animated: true, completion: nil)
     }
-
-    @IBAction func report_a_problem(_ sender: Any) {
-       self.sendEmail()
-    }
-    @IBAction func send_feedback(_ sender: Any) {
-        self.sendEmail()
-    }
-
     /*
     // MARK: - Navigation
 
