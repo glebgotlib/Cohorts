@@ -910,14 +910,14 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IaK-Yv-Q5S">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="967"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Zio-EI-I5m">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zio-EI-I5m">
                                         <rect key="frame" x="0.0" y="136" width="375" height="831"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="831" id="yde-G3-beo"/>
                                         </constraints>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. multimedia-photo-icon-31.png Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. multimedia-photo-icon-31.png Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. multimedia-photo-icon-31.png Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. multimedia-photo-icon-31.png</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. multimedia-photo-icon-31.png Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. multimedia-photo-icon-31.png Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. multimedia-photo-icon-31.png Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. multimedia-photo-icon-31.png</mutableString>
+                                        <fontDescription key="fontDescription" name=".SFNSText" family=".SF NS Text" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="multimedia-photo-icon-31.png" translatesAutoresizingMaskIntoConstraints="NO" id="roK-hP-C3E">
@@ -950,68 +950,115 @@
                                     <constraint firstItem="2AU-Dy-JrD" firstAttribute="leading" secondItem="Zio-EI-I5m" secondAttribute="leading" id="uDc-zF-udI"/>
                                 </constraints>
                             </scrollView>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMQ-rd-TMw">
-                                <rect key="frame" x="125" y="435" width="125" height="30"/>
-                                <color key="backgroundColor" red="0.86274509799999999" green="0.098039215690000001" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MBP-04-upE">
+                                <rect key="frame" x="0.0" y="468" width="375" height="30"/>
+                                <subviews>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMQ-rd-TMw">
+                                        <rect key="frame" x="125" y="0.0" width="125" height="30"/>
+                                        <color key="backgroundColor" red="0.7843137255" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="VW5-Fb-Oxk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="BOLD">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="make_bold:" destination="vix-oT-8H9" eventType="touchUpInside" id="Aan-kX-4RE"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TjZ-26-QRh">
+                                        <rect key="frame" x="249" y="0.0" width="1" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="5CZ-xR-m95"/>
+                                            <constraint firstAttribute="width" constant="1" id="vn0-yu-K2F"/>
+                                        </constraints>
+                                    </view>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBL-YR-etX">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="30"/>
+                                        <color key="backgroundColor" red="0.7843137255" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="DEf-JW-qNs"/>
+                                        </constraints>
+                                        <state key="normal" title="U">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="make_underline:" destination="vix-oT-8H9" eventType="touchUpInside" id="64z-RI-Y02"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ck7-2u-PSI">
+                                        <rect key="frame" x="250" y="0.0" width="125" height="30"/>
+                                        <color key="backgroundColor" red="0.7843137255" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="C1F-Jd-ZO9"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="125" id="Sa5-oe-Mgq"/>
+                                            <constraint firstAttribute="width" constant="125" id="mcR-bi-BFZ"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="qJF-sf-7ly"/>
+                                        </constraints>
+                                        <state key="normal" title="ITALIC">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="make_italic:" destination="vix-oT-8H9" eventType="touchUpInside" id="B8W-kc-l0b"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DGA-7x-giy">
+                                        <rect key="frame" x="124" y="0.0" width="1" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="3FG-WD-9DE"/>
+                                            <constraint firstAttribute="width" constant="1" id="g9E-va-3r9"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="VW5-Fb-Oxk"/>
+                                    <constraint firstItem="rMQ-rd-TMw" firstAttribute="top" secondItem="MBP-04-upE" secondAttribute="topMargin" constant="-8" id="32g-M5-Hsg"/>
+                                    <constraint firstItem="rMQ-rd-TMw" firstAttribute="width" secondItem="ck7-2u-PSI" secondAttribute="width" id="472-JC-i1V"/>
+                                    <constraint firstAttribute="trailing" secondItem="ck7-2u-PSI" secondAttribute="trailing" id="4FM-v1-rLe"/>
+                                    <constraint firstAttribute="bottom" secondItem="ck7-2u-PSI" secondAttribute="bottom" id="5w0-me-RCc"/>
+                                    <constraint firstAttribute="bottom" secondItem="TjZ-26-QRh" secondAttribute="bottom" id="6DT-VB-qoc"/>
+                                    <constraint firstItem="rMQ-rd-TMw" firstAttribute="leading" secondItem="NBL-YR-etX" secondAttribute="trailing" id="6aP-Ku-UOq"/>
+                                    <constraint firstAttribute="bottom" secondItem="NBL-YR-etX" secondAttribute="bottom" id="8eV-F8-3F7"/>
+                                    <constraint firstAttribute="height" constant="30" id="9Ft-B7-a1d"/>
+                                    <constraint firstItem="ck7-2u-PSI" firstAttribute="leading" secondItem="rMQ-rd-TMw" secondAttribute="trailing" id="C3P-eU-P6S"/>
+                                    <constraint firstItem="TjZ-26-QRh" firstAttribute="top" secondItem="MBP-04-upE" secondAttribute="top" id="CH8-8h-jLc"/>
+                                    <constraint firstItem="ck7-2u-PSI" firstAttribute="top" secondItem="MBP-04-upE" secondAttribute="top" id="Dxr-dC-Nlg"/>
+                                    <constraint firstItem="ck7-2u-PSI" firstAttribute="top" secondItem="MBP-04-upE" secondAttribute="top" id="EBg-Pt-Gjy"/>
+                                    <constraint firstAttribute="bottom" secondItem="rMQ-rd-TMw" secondAttribute="bottom" id="H51-yF-uIx"/>
+                                    <constraint firstItem="NBL-YR-etX" firstAttribute="leading" secondItem="MBP-04-upE" secondAttribute="leading" id="IwT-8B-R3F"/>
+                                    <constraint firstItem="NBL-YR-etX" firstAttribute="top" secondItem="MBP-04-upE" secondAttribute="top" id="J7d-dj-12Q"/>
+                                    <constraint firstItem="DGA-7x-giy" firstAttribute="top" secondItem="MBP-04-upE" secondAttribute="top" id="JIJ-oq-KdF"/>
+                                    <constraint firstItem="rMQ-rd-TMw" firstAttribute="top" secondItem="MBP-04-upE" secondAttribute="top" id="KNO-Ak-uvm"/>
+                                    <constraint firstItem="rMQ-rd-TMw" firstAttribute="leading" secondItem="NBL-YR-etX" secondAttribute="trailing" id="MKZ-5a-T04"/>
+                                    <constraint firstItem="ck7-2u-PSI" firstAttribute="leading" secondItem="rMQ-rd-TMw" secondAttribute="trailing" id="PRz-H8-hnT"/>
+                                    <constraint firstAttribute="bottom" secondItem="DGA-7x-giy" secondAttribute="bottom" id="Ryw-A2-hmz"/>
+                                    <constraint firstItem="rMQ-rd-TMw" firstAttribute="leading" secondItem="NBL-YR-etX" secondAttribute="trailing" id="V54-Aa-c9r"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Vn7-SS-WVS"/>
+                                    <constraint firstItem="NBL-YR-etX" firstAttribute="width" secondItem="ck7-2u-PSI" secondAttribute="width" id="XmG-6L-zOo"/>
+                                    <constraint firstItem="ck7-2u-PSI" firstAttribute="leading" secondItem="rMQ-rd-TMw" secondAttribute="trailing" id="bMX-J6-s3g"/>
+                                    <constraint firstItem="rMQ-rd-TMw" firstAttribute="leading" secondItem="NBL-YR-etX" secondAttribute="trailing" id="fLz-6P-2G0"/>
+                                    <constraint firstItem="ck7-2u-PSI" firstAttribute="leading" secondItem="TjZ-26-QRh" secondAttribute="trailing" id="hhC-A3-avc"/>
+                                    <constraint firstItem="ck7-2u-PSI" firstAttribute="leading" secondItem="rMQ-rd-TMw" secondAttribute="trailing" id="kiV-Wz-erK"/>
+                                    <constraint firstItem="rMQ-rd-TMw" firstAttribute="leading" secondItem="NBL-YR-etX" secondAttribute="trailing" id="mP5-oR-Nux"/>
+                                    <constraint firstItem="NBL-YR-etX" firstAttribute="leading" secondItem="MBP-04-upE" secondAttribute="leading" id="mfi-NK-ogK"/>
+                                    <constraint firstItem="NBL-YR-etX" firstAttribute="top" secondItem="MBP-04-upE" secondAttribute="top" id="qC1-9a-wfM"/>
+                                    <constraint firstAttribute="trailing" secondItem="ck7-2u-PSI" secondAttribute="trailing" id="qD0-hv-Dyu"/>
+                                    <constraint firstItem="rMQ-rd-TMw" firstAttribute="leading" secondItem="DGA-7x-giy" secondAttribute="trailing" id="v8e-Uz-ffa"/>
+                                    <constraint firstItem="NBL-YR-etX" firstAttribute="leading" secondItem="MBP-04-upE" secondAttribute="leading" id="zWg-DQ-qjs"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="BOLD">
-                                    <color key="titleColor" red="0.98431372549999996" green="0.98431372549999996" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="make_bold:" destination="vix-oT-8H9" eventType="touchUpInside" id="Aan-kX-4RE"/>
-                                </connections>
-                            </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBL-YR-etX">
-                                <rect key="frame" x="0.0" y="435" width="125" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="DEf-JW-qNs"/>
-                                </constraints>
-                                <state key="normal" title="U">
-                                    <color key="titleColor" red="0.98431372549999996" green="0.98431372549999996" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="make_underline:" destination="vix-oT-8H9" eventType="touchUpInside" id="64z-RI-Y02"/>
-                                </connections>
-                            </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ck7-2u-PSI">
-                                <rect key="frame" x="250" y="435" width="125" height="30"/>
-                                <color key="backgroundColor" red="0.11440972219999999" green="0.58156828699999996" blue="0.16400462960000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="C1F-Jd-ZO9"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="125" id="Sa5-oe-Mgq"/>
-                                    <constraint firstAttribute="width" constant="125" id="mcR-bi-BFZ"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="qJF-sf-7ly"/>
-                                </constraints>
-                                <state key="normal" title="ITALIC">
-                                    <color key="titleColor" red="0.98431372549999996" green="0.98431372549999996" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="make_italic:" destination="vix-oT-8H9" eventType="touchUpInside" id="B8W-kc-l0b"/>
-                                </connections>
-                            </button>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="rMQ-rd-TMw" firstAttribute="leading" secondItem="NBL-YR-etX" secondAttribute="trailing" id="6aH-Lh-OR1"/>
-                            <constraint firstItem="NBL-YR-etX" firstAttribute="leading" secondItem="2ZA-Ex-T8y" secondAttribute="leading" id="6f7-gT-iMG"/>
-                            <constraint firstItem="rMQ-rd-TMw" firstAttribute="leading" secondItem="NBL-YR-etX" secondAttribute="trailing" id="787-Vs-ZMR"/>
-                            <constraint firstItem="NBL-YR-etX" firstAttribute="leading" secondItem="2ZA-Ex-T8y" secondAttribute="leading" id="LS0-Ay-KQf"/>
-                            <constraint firstItem="NBL-YR-etX" firstAttribute="top" secondItem="2ZA-Ex-T8y" secondAttribute="top" constant="435" id="LzT-Yd-ab4"/>
-                            <constraint firstItem="rMQ-rd-TMw" firstAttribute="top" secondItem="2ZA-Ex-T8y" secondAttribute="topMargin" constant="435" id="MXN-Xt-nXy"/>
                             <constraint firstItem="IaK-Yv-Q5S" firstAttribute="top" secondItem="2ZA-Ex-T8y" secondAttribute="top" id="MtM-9a-49I"/>
-                            <constraint firstItem="ck7-2u-PSI" firstAttribute="leading" secondItem="rMQ-rd-TMw" secondAttribute="trailing" id="Na4-VM-2tt"/>
                             <constraint firstItem="IaK-Yv-Q5S" firstAttribute="leading" secondItem="2ZA-Ex-T8y" secondAttribute="leading" id="OTh-90-Kow"/>
-                            <constraint firstItem="ck7-2u-PSI" firstAttribute="top" secondItem="2ZA-Ex-T8y" secondAttribute="top" constant="435" id="UpF-Bb-r7I"/>
-                            <constraint firstAttribute="trailing" secondItem="ck7-2u-PSI" secondAttribute="trailing" id="gut-9T-RIs"/>
-                            <constraint firstItem="ck7-2u-PSI" firstAttribute="leading" secondItem="rMQ-rd-TMw" secondAttribute="trailing" id="hE4-qz-A7S"/>
-                            <constraint firstItem="rMQ-rd-TMw" firstAttribute="leading" secondItem="NBL-YR-etX" secondAttribute="trailing" id="i2z-a5-NNz"/>
-                            <constraint firstItem="NBL-YR-etX" firstAttribute="width" secondItem="ck7-2u-PSI" secondAttribute="width" id="nAK-vW-keF"/>
+                            <constraint firstAttribute="trailing" secondItem="MBP-04-upE" secondAttribute="trailing" id="cVf-6Z-vE5"/>
+                            <constraint firstItem="MBP-04-upE" firstAttribute="leading" secondItem="2ZA-Ex-T8y" secondAttribute="leading" id="ftz-gi-re7"/>
                             <constraint firstItem="IaK-Yv-Q5S" firstAttribute="bottom" secondItem="ZQU-6s-sVX" secondAttribute="top" id="qhs-sW-dRW"/>
-                            <constraint firstItem="rMQ-rd-TMw" firstAttribute="width" secondItem="ck7-2u-PSI" secondAttribute="width" id="uf2-XN-O70"/>
+                            <constraint firstItem="MBP-04-upE" firstAttribute="top" secondItem="2ZA-Ex-T8y" secondAttribute="top" constant="468" id="tRp-Rp-MXt"/>
                             <constraint firstAttribute="trailing" secondItem="IaK-Yv-Q5S" secondAttribute="trailing" id="vE4-Lk-nW3"/>
                         </constraints>
                     </view>
@@ -1023,8 +1070,10 @@
                         <outlet property="bold_button" destination="rMQ-rd-TMw" id="YWv-8d-7lJ"/>
                         <outlet property="created_photo" destination="roK-hP-C3E" id="Rto-Xk-bTn"/>
                         <outlet property="italic_button" destination="ck7-2u-PSI" id="aMT-OL-iqP"/>
+                        <outlet property="style_from_top" destination="tRp-Rp-MXt" id="9vL-Ke-kvt"/>
                         <outlet property="text_view" destination="Zio-EI-I5m" id="tfk-lC-vA2"/>
                         <outlet property="underline_button" destination="NBL-YR-etX" id="fjZ-RM-EKb"/>
+                        <outlet property="view_style" destination="MBP-04-upE" id="1MN-qq-VKG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ar5-Mv-AT8" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -297,6 +297,7 @@
 		8C30A2FB1E34CCB900D57495 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		8C30A2FD1E34CCDF00D57495 /* PrivacyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
 		8C30A2FF1E34CD0800D57495 /* TopicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicsViewController.swift; sourceTree = "<group>"; };
+		8C5C44111E38EB87009706CF /* Upstand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Upstand.entitlements; sourceTree = "<group>"; };
 		8C66B4881DD77ABA00DA6919 /* Image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image1.png; path = Cohorts/IMAGES/Image1.png; sourceTree = "<group>"; };
 		8C66B4891DD77ABA00DA6919 /* Image1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Image1@2x.png"; path = "Cohorts/IMAGES/Image1@2x.png"; sourceTree = "<group>"; };
 		8C66B48A1DD77ABA00DA6919 /* Image1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Image1@3x.png"; path = "Cohorts/IMAGES/Image1@3x.png"; sourceTree = "<group>"; };
@@ -422,6 +423,7 @@
 		8C2761241DD124A100862D98 /* Cohorts */ = {
 			isa = PBXGroup;
 			children = (
+				8C5C44111E38EB87009706CF /* Upstand.entitlements */,
 				8C66B4A41DD7976F00DA6919 /* Settings */,
 				8C66B4A11DD7975500DA6919 /* Add */,
 				8C66B49E1DD7969500DA6919 /* Notifications */,
@@ -664,6 +666,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = H6VYQ67VXQ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -981,6 +988,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Cohorts/Upstand.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = H6VYQ67VXQ;
@@ -996,6 +1004,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Cohorts/Upstand.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = H6VYQ67VXQ;

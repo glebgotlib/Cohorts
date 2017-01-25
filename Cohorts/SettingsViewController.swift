@@ -34,9 +34,15 @@ class SettingsViewController: UIViewController, MFMailComposeViewControllerDeleg
         signOutButton.layer.cornerRadius = 3;
         signOutButton.layer.borderWidth = 1;
         signOutButton.layer.borderColor = UIColor.gray.cgColor//E8E8E8
+        self.tabBarController?.tabBar.isHidden = false
         // Do any additional setup after loading the view.
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(false)
+        self.tabBarController?.tabBar.isHidden = false
+
+    }
 
     @IBAction func sign_out_action(_ sender: Any) {
     }

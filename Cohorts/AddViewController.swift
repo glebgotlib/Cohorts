@@ -11,6 +11,8 @@ import UIKit
 class AddViewController: UIViewController,UIImagePickerControllerDelegate,
 UINavigationControllerDelegate {
 
+    @IBOutlet weak var style_from_top: NSLayoutConstraint!
+    @IBOutlet weak var view_style: UIView!
     @IBOutlet weak var underline_button: UIButton!
     @IBOutlet weak var italic_button: UIButton!
     @IBOutlet weak var bold_button: UIButton!
@@ -32,8 +34,10 @@ UINavigationControllerDelegate {
     func keyboardWillShow(notification: NSNotification) {
         if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
             let keyboardHeight = keyboardSize.height
-           print("Link is: \(keyboardHeight)")
+           print("keyboardHeight: \(keyboardHeight)")
             print(keyboardHeight)
+            style_from_top.constant = view.frame.size.height - keyboardHeight - 30
+            view_style.isHidden = false
             underline_button.isHidden = false
             bold_button.isHidden = false
             italic_button.isHidden = false
@@ -43,6 +47,8 @@ UINavigationControllerDelegate {
             underline_button.isHidden = true
             bold_button.isHidden = true
             italic_button.isHidden = true
+            view_style.isHidden = true
+
     }
     
     func addTapped() {
@@ -50,7 +56,7 @@ UINavigationControllerDelegate {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        let alertController = UIAlertController(title: "", message: "", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "How you will add?", message: "", preferredStyle: .alert)
         let add_manualy = UIAlertAction(title: NSLocalizedString("Add manualy", comment: "Add manualy"), style: .default, handler: {(action: UIAlertAction) -> Void in
             //Add your code
 //            self.manual_select("weew")
@@ -108,7 +114,7 @@ UINavigationControllerDelegate {
     }
     @IBOutlet weak var add_image_button: UIButton!
     @IBAction func add_image_action(_ sender: Any) {
-        let alertController = UIAlertController(title: "Submit a new ...", message: "", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Select image", message: "", preferredStyle: .alert)
         let add_manualy = UIAlertAction(title: NSLocalizedString("From Galery", comment: "From Galery"), style: .default, handler: {(action: UIAlertAction) -> Void in
             //Add your code
             self.photoFromLibrary("weew")
