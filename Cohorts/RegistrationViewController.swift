@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RegistrationViewController: UIViewController {
+class RegistrationViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet weak var email_text_field: UITextField!
     @IBOutlet weak var full_name_text_field: UITextField!
     @IBOutlet weak var pass_text_field: UITextField!
@@ -30,7 +30,7 @@ class RegistrationViewController: UIViewController {
 //        -F 'picture=@/home/user/Desktop/test.png' \
 //        
 //        "http://46.101.230.138:4040/users"
-
+        
         let myUrl = URL(string: "http://46.101.230.138:4040/v0.2/users");
         
         var request = URLRequest(url:myUrl!)
@@ -80,14 +80,35 @@ class RegistrationViewController: UIViewController {
     @IBAction func back_to_log_in(_ sender: UIButton) {
         self.performSegue(withIdentifier: "go_back_to_login", sender: nil)
     }
-
-
+    
+    func UIColorFromRGB(rgbValue: UInt) -> UIColor {
+        return UIColor(
+            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+            alpha: CGFloat(1.0)
+        )
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool
+    {
+        textField.resignFirstResponder()
+        return true;
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.hideKeyboardWhenTappedAround()
+        email_text_field.delegate=self
+        full_name_text_field.delegate=self
+        pass_text_field.delegate=self
+        email_text_field.attributedPlaceholder = NSAttributedString(string: "some@mail.com",
+                                                                               attributes: [NSForegroundColorAttributeName: UIColor.darkGray])
+        full_name_text_field.attributedPlaceholder = NSAttributedString(string: "Full name",
+                                                                        attributes: [NSForegroundColorAttributeName: UIColor.darkGray])
+        pass_text_field.attributedPlaceholder = NSAttributedString(string: "Password",
+                                                                   attributes: [NSForegroundColorAttributeName: UIColor.darkGray])
         sign_up.layer.cornerRadius = 3;
         sign_up.layer.borderWidth = 1;
-        sign_up.layer.borderColor = UIColor.gray.cgColor
+        sign_up.layer.borderColor = UIColorFromRGB(rgbValue: 0xC8C7CC).cgColor
         // Do any additional setup after loading the view.
     }
 
@@ -107,4 +128,14 @@ class RegistrationViewController: UIViewController {
     }
     */
 
+}
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
+    }
 }

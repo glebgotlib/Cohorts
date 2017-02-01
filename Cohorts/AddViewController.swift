@@ -8,9 +8,13 @@
 
 import UIKit
 
-class AddViewController: UIViewController,UIImagePickerControllerDelegate,
+class AddViewController: UIViewController,UITextViewDelegate,UIImagePickerControllerDelegate,
 UINavigationControllerDelegate {
 
+    @IBOutlet weak var test_view: UIView!
+    @IBOutlet weak var scroll_view: UIScrollView!
+    @IBOutlet weak var bottom_margin_of_photo: NSLayoutConstraint!
+    @IBOutlet weak var height_of_image: NSLayoutConstraint!
     @IBOutlet weak var style_from_top: NSLayoutConstraint!
     @IBOutlet weak var view_style: UIView!
     @IBOutlet weak var underline_button: UIButton!
@@ -22,15 +26,53 @@ UINavigationControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        text_view.delegate = self
+        text_view.text = "Placeholder"
+        text_view.textColor = UIColor.lightGray
+        test_view.isHidden = true
         self.title = "Add"
         picker.delegate = self
-        
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(addTapped))
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: .UIKeyboardWillShow, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: .UIKeyboardWillHide, object: nil)
+
         
-               // Do any additional setup after loading the view.
+        
+        
+        let tapGestureRecognizer = UITapGestureRecognizer(target:self, action:#selector(imageTapped(img:)))
+        created_photo.isUserInteractionEnabled = true
+        created_photo.addGestureRecognizer(tapGestureRecognizer)
+        
+        // Do any additional setup after loading the view.
+        
+        let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToSwipeGesture))
+//        swipeDown.direction = UISwipeGestureRecognizerDirection.down
+        test_view.addGestureRecognizer(swipeDown)
     }
+    
+    func respondToSwipeGesture(gesture: UIGestureRecognizer) {
+        if let swipeGesture = gesture as? UISwipeGestureRecognizer {
+            switch swipeGesture.direction {
+            case UISwipeGestureRecognizerDirection.right:
+                print("Swiped right")
+            case UISwipeGestureRecognizerDirection.down:
+                print("Swiped down")
+            case UISwipeGestureRecognizerDirection.left:
+                print("Swiped left")
+            case UISwipeGestureRecognizerDirection.up:
+                print("Swiped up")
+            default:
+                break
+            }
+        }
+    }
+    func imageTapped(img: AnyObject)
+    {
+        // Your action
+        print("Swiped right 1333332")
+        
+    }
+    
     func keyboardWillShow(notification: NSNotification) {
         if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
             let keyboardHeight = keyboardSize.height
@@ -50,28 +92,36 @@ UINavigationControllerDelegate {
             view_style.isHidden = true
 
     }
+    func textViewDidBeginEditing(_ textView: UITextView) {
+        if textView.textColor == UIColor.lightGray {
+            textView.text = nil
+            textView.textColor = UIColor.black
+        }
+    }
     
     func addTapped() {
-        self.manual_select("weew")
+        print("defaults savedString: \(text_view.text)")
+//        self.manual_select("weew")
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        let alertController = UIAlertController(title: "How you will add?", message: "", preferredStyle: .alert)
-        let add_manualy = UIAlertAction(title: NSLocalizedString("Add manualy", comment: "Add manualy"), style: .default, handler: {(action: UIAlertAction) -> Void in
+       super.viewWillAppear(false)
+        let alertController = UIAlertController(title: "Submit a new ...", message: "", preferredStyle: .actionSheet)
+        let add_manualy = UIAlertAction(title: NSLocalizedString("Text Post", comment: "Add manualy"), style: .default, handler: {(action: UIAlertAction) -> Void in
             //Add your code
 //            self.manual_select("weew")
-            print("cancel action")
+//            print("cancel action")
         })
-        let add_link = UIAlertAction(title: NSLocalizedString("Add link", comment: "Add link"), style: .default, handler: {(action: UIAlertAction) -> Void in
+        let add_link = UIAlertAction(title: NSLocalizedString("Link", comment: "Add link"), style: .default, handler: {(action: UIAlertAction) -> Void in
             //Your code
             self.link_select("weew")
         })
-        let cancelAction = UIAlertAction(title: NSLocalizedString("Cancel", comment: "cancel action"), style: .default, handler: {(action: UIAlertAction) -> Void in
-            print("cancel action")
-        })
+//        let cancelAction = UIAlertAction(title: NSLocalizedString("Cancel", comment: "cancel action"), style: .default, handler: {(action: UIAlertAction) -> Void in
+//            print("cancel action")
+//        })
         alertController.addAction(add_manualy)
         alertController.addAction(add_link)
-        alertController.addAction(cancelAction)
+//        alertController.addAction(cancelAction)
         self.present(alertController, animated: true, completion: nil)
     }
     func photoFromLibrary(_ p:String) {
@@ -88,7 +138,7 @@ UINavigationControllerDelegate {
         
     }
     func link_select(_ p:String) {
-        let alertController = UIAlertController(title: "URL", message: "", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "URL", message: "Submit a New Link", preferredStyle: .alert)
         
         let saveAction = UIAlertAction(title: "OK", style: .default, handler: {
             alert -> Void in
@@ -114,7 +164,7 @@ UINavigationControllerDelegate {
     }
     @IBOutlet weak var add_image_button: UIButton!
     @IBAction func add_image_action(_ sender: Any) {
-        let alertController = UIAlertController(title: "Select image", message: "", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Select image", message: "", preferredStyle: .actionSheet)
         let add_manualy = UIAlertAction(title: NSLocalizedString("From Galery", comment: "From Galery"), style: .default, handler: {(action: UIAlertAction) -> Void in
             //Add your code
             self.photoFromLibrary("weew")
@@ -134,7 +184,7 @@ UINavigationControllerDelegate {
     func imagePickerController(_ picker: UIImagePickerController,didFinishPickingMediaWithInfo info: [String : AnyObject])
     {
         let chosenImage = info[UIImagePickerControllerOriginalImage] as! UIImage //2
-        created_photo.contentMode = .scaleAspectFit //3
+        created_photo.contentMode = .scaleAspectFill //3
         created_photo.image = chosenImage //4
         dismiss(animated:true, completion: nil) //5
     }
@@ -168,9 +218,25 @@ UINavigationControllerDelegate {
     
     @IBAction func make_italic(_ sender: Any) {
         let range = text_view.selectedRange
+        print("defaults savedString: \(range)")
+        
         let string = NSMutableAttributedString(attributedString: text_view.attributedText)
+          print("defaults savedString: \(string)")
+//        string.enumerateAttribute(NSFontAttributeName, in: NSMakeRange(0, string.length), options: NSAttributedString.EnumerationOptions(0)) { (value, range, stop) -> Void in
+//            if let oldFont = value as? UIFont {
+//                let newFont = oldFont.fontWithSize(oldFont.pointSize * 2)
+//                res.removeAttribute(NSFontAttributeName, range: range)
+//                res.addAttribute(NSFontAttributeName, value: newFont, range: range)
+//                found = true
+//            }
+//        }
+        
+
         let attributes = [NSFontAttributeName : UIFont.italicSystemFont(ofSize: 15)]
+        
         string.addAttributes(attributes, range: text_view.selectedRange)
+        print("attributes savedString: \(string)")
+
         text_view.attributedText = string
         text_view.selectedRange = range
     }

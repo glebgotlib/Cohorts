@@ -26,14 +26,21 @@ class SettingsViewController: UIViewController, MFMailComposeViewControllerDeleg
     @IBOutlet weak var sign_out: UIButton!
     @IBOutlet weak var Copiright_label: UILabel!
     
-    
+    func UIColorFromRGB(rgbValue: UInt) -> UIColor {
+        return UIColor(
+            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+            alpha: CGFloat(1.0)
+        )
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Settings"
         signOutButton.layer.cornerRadius = 3;
         signOutButton.layer.borderWidth = 1;
-        signOutButton.layer.borderColor = UIColor.gray.cgColor//E8E8E8
+        signOutButton.layer.borderColor = UIColorFromRGB(rgbValue: 0xC8C7CC).cgColor
         self.tabBarController?.tabBar.isHidden = false
         // Do any additional setup after loading the view.
     }
