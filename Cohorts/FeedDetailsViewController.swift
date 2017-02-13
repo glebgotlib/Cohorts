@@ -48,7 +48,40 @@ class FeedDetailsViewController: UIViewController {
 //            contentRect = contentRect.union(view.frame);
 //        }
 //        scroll_view.contentSize = contentRect.size;
+        let tapGestureRecognizer = UITapGestureRecognizer(target:self, action:#selector(imageTapped(img:)))
+        big_image.isUserInteractionEnabled = true
+        big_image.addGestureRecognizer(tapGestureRecognizer)
+        
+        // Do any additional setup after loading the view.
+        
+        let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToSwipeGesture))
+        //        swipeDown.direction = UISwipeGestureRecognizerDirection.down
+        big_image.addGestureRecognizer(swipeDown)
     }
+    
+    func respondToSwipeGesture(gesture: UIGestureRecognizer) {
+        if let swipeGesture = gesture as? UISwipeGestureRecognizer {
+            switch swipeGesture.direction {
+            case UISwipeGestureRecognizerDirection.right:
+                print("Swiped right")
+            case UISwipeGestureRecognizerDirection.down:
+                print("Swiped down")
+            case UISwipeGestureRecognizerDirection.left:
+                print("Swiped left")
+            case UISwipeGestureRecognizerDirection.up:
+                print("Swiped up")
+            default:
+                break
+            }
+        }
+    }
+    func imageTapped(img: AnyObject)
+    {
+        // Your action
+        print("Swiped right 1333332")
+        
+    }
+
     func back(sender: UIBarButtonItem) {
         // Perform your custom actions
         // ...

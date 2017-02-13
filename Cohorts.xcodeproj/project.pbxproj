@@ -67,6 +67,8 @@
 		8C246C5D1E2E311500D1B123 /* Privacy Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C246C511E2E311500D1B123 /* Privacy Icon.png */; };
 		8C246C5E1E2E311500D1B123 /* Privacy Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C246C521E2E311500D1B123 /* Privacy Icon@2x.png */; };
 		8C246C5F1E2E311500D1B123 /* Privacy Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C246C531E2E311500D1B123 /* Privacy Icon@3x.png */; };
+		8C270BBD1E44B2EF0032E6EE /* AddWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C270BBC1E44B2EF0032E6EE /* AddWebViewViewController.swift */; };
+		8C270BBF1E44B36A0032E6EE /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C270BBE1E44B36A0032E6EE /* index.html */; };
 		8C2761261DD124A100862D98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2761251DD124A100862D98 /* AppDelegate.swift */; };
 		8C2761281DD124A100862D98 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2761271DD124A100862D98 /* LogInView.swift */; };
 		8C27612B1DD124A100862D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2761291DD124A100862D98 /* Main.storyboard */; };
@@ -164,8 +166,12 @@
 		8CA4B3AB1E352B0600D1916C /* Disclosure Indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4B3A81E352B0600D1916C /* Disclosure Indicator.png */; };
 		8CA4B3AC1E352B0600D1916C /* Disclosure Indicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4B3A91E352B0600D1916C /* Disclosure Indicator@2x.png */; };
 		8CA4B3AD1E352B0600D1916C /* Disclosure Indicator@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4B3AA1E352B0600D1916C /* Disclosure Indicator@3x.png */; };
+		8CA6E0971E51D5E000EDA07B /* conf.css in Resources */ = {isa = PBXBuildFile; fileRef = 8CA6E0961E51D5E000EDA07B /* conf.css */; };
 		8CB5669C1DE3AEE1007FCA65 /* Bundesarchiv_Bild_183-R98911,_Heinrich_Mann.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CB5669B1DE3AEE0007FCA65 /* Bundesarchiv_Bild_183-R98911,_Heinrich_Mann.jpg */; };
 		8CBDD29C1E02F3A10040B545 /* multimedia-photo-icon-31.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBDD29B1E02F3A10040B545 /* multimedia-photo-icon-31.png */; };
+		8CC8168C1E4CC4B6002C768B /* ukraine.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CC816891E4CC4B5002C768B /* ukraine.png */; };
+		8CC8168D1E4CC4B6002C768B /* ukraine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CC8168A1E4CC4B6002C768B /* ukraine@2x.png */; };
+		8CC8168E1E4CC4B6002C768B /* ukraine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CC8168B1E4CC4B6002C768B /* ukraine@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -230,6 +236,8 @@
 		8C246C511E2E311500D1B123 /* Privacy Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Privacy Icon.png"; path = "Cohorts/IMAGES/Privacy Icon.png"; sourceTree = "<group>"; };
 		8C246C521E2E311500D1B123 /* Privacy Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Privacy Icon@2x.png"; path = "Cohorts/IMAGES/Privacy Icon@2x.png"; sourceTree = "<group>"; };
 		8C246C531E2E311500D1B123 /* Privacy Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Privacy Icon@3x.png"; path = "Cohorts/IMAGES/Privacy Icon@3x.png"; sourceTree = "<group>"; };
+		8C270BBC1E44B2EF0032E6EE /* AddWebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWebViewViewController.swift; sourceTree = "<group>"; };
+		8C270BBE1E44B36A0032E6EE /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		8C2761221DD124A100862D98 /* Upstand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Upstand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2761251DD124A100862D98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C2761271DD124A100862D98 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
@@ -330,8 +338,12 @@
 		8CA4B3A81E352B0600D1916C /* Disclosure Indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Disclosure Indicator.png"; path = "Cohorts/IMAGES/Disclosure Indicator.png"; sourceTree = "<group>"; };
 		8CA4B3A91E352B0600D1916C /* Disclosure Indicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Disclosure Indicator@2x.png"; path = "Cohorts/IMAGES/Disclosure Indicator@2x.png"; sourceTree = "<group>"; };
 		8CA4B3AA1E352B0600D1916C /* Disclosure Indicator@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Disclosure Indicator@3x.png"; path = "Cohorts/IMAGES/Disclosure Indicator@3x.png"; sourceTree = "<group>"; };
+		8CA6E0961E51D5E000EDA07B /* conf.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = conf.css; sourceTree = "<group>"; };
 		8CB5669B1DE3AEE0007FCA65 /* Bundesarchiv_Bild_183-R98911,_Heinrich_Mann.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Bundesarchiv_Bild_183-R98911,_Heinrich_Mann.jpg"; path = "Cohorts/IMAGES/Bundesarchiv_Bild_183-R98911,_Heinrich_Mann.jpg"; sourceTree = "<group>"; };
 		8CBDD29B1E02F3A10040B545 /* multimedia-photo-icon-31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "multimedia-photo-icon-31.png"; path = "Cohorts/IMAGES/multimedia-photo-icon-31.png"; sourceTree = "<group>"; };
+		8CC816891E4CC4B5002C768B /* ukraine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ukraine.png; path = Cohorts/IMAGES/ukraine.png; sourceTree = "<group>"; };
+		8CC8168A1E4CC4B6002C768B /* ukraine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ukraine@2x.png"; path = "Cohorts/IMAGES/ukraine@2x.png"; sourceTree = "<group>"; };
+		8CC8168B1E4CC4B6002C768B /* ukraine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ukraine@3x.png"; path = "Cohorts/IMAGES/ukraine@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,6 +470,9 @@
 		8C2761371DD1F30D00862D98 /* IMAGES */ = {
 			isa = PBXGroup;
 			children = (
+				8CC816891E4CC4B5002C768B /* ukraine.png */,
+				8CC8168A1E4CC4B6002C768B /* ukraine@2x.png */,
+				8CC8168B1E4CC4B6002C768B /* ukraine@3x.png */,
 				8C10A59E1E2539FB00D5BDD9 /* Settings */,
 				8C10A57B1E24F6B800D5BDD9 /* Appearance */,
 				8CBDD29B1E02F3A10040B545 /* multimedia-photo-icon-31.png */,
@@ -613,6 +628,9 @@
 			children = (
 				8C66B4A21DD7976A00DA6919 /* AddViewController.swift */,
 				8C10A59C1E24FB6F00D5BDD9 /* SelectorViewController.swift */,
+				8C270BBC1E44B2EF0032E6EE /* AddWebViewViewController.swift */,
+				8C270BBE1E44B36A0032E6EE /* index.html */,
+				8CA6E0961E51D5E000EDA07B /* conf.css */,
 			);
 			name = Add;
 			sourceTree = "<group>";
@@ -729,9 +747,11 @@
 				8C2761501DD25E1B00862D98 /* sparkle-1@2x.png in Resources */,
 				8C10A5B51E253A2200D5BDD9 /* Rectangle 110@2x.png in Resources */,
 				8C2761301DD124A100862D98 /* LaunchScreen.storyboard in Resources */,
+				8CC8168D1E4CC4B6002C768B /* ukraine@2x.png in Resources */,
 				8C10A5AD1E253A2100D5BDD9 /* icon_ios_bell@3x.png in Resources */,
 				8C2761541DD2605D00862D98 /* Alberto-Mateo-Travel-Photographer-Piccadilly-Circus-Neons-London-United-Kingdom-FEAT.jpg in Resources */,
 				8C246C541E2E311500D1B123 /* Geo Icon.png in Resources */,
+				8CA6E0971E51D5E000EDA07B /* conf.css in Resources */,
 				8C2761A51DD48C3C00862D98 /* Settings Icon white@3x.png in Resources */,
 				8C246C5E1E2E311500D1B123 /* Privacy Icon@2x.png in Resources */,
 				8C2761951DD48C3C00862D98 /* Feed Icon@2x.png in Resources */,
@@ -785,6 +805,7 @@
 				8C10A59B1E24F98300D5BDD9 /* Card+Card Status 1@3x.png in Resources */,
 				8C66B4911DD77AC900DA6919 /* Image.png in Resources */,
 				8C10A5901E24F6DA00D5BDD9 /* Group 3@2x.png in Resources */,
+				8CC8168C1E4CC4B6002C768B /* ukraine.png in Resources */,
 				8C27618A1DD48C3C00862D98 /* BBC avatar@3x.png in Resources */,
 				8C2761B31DD4CF1200862D98 /* Promote.png in Resources */,
 				8C27618F1DD48C3C00862D98 /* Bell@2x.png in Resources */,
@@ -807,6 +828,7 @@
 				8C10A5B41E253A2100D5BDD9 /* Rectangle 110.png in Resources */,
 				8C66B4931DD77AC900DA6919 /* Image@3x.png in Resources */,
 				8C2761891DD48C3C00862D98 /* BBC avatar@2x.png in Resources */,
+				8CC8168E1E4CC4B6002C768B /* ukraine@3x.png in Resources */,
 				8C2761491DD1F31E00862D98 /* Facebook@3x.png in Resources */,
 				8C2761911DD48C3C00862D98 /* Feed Icon white.png in Resources */,
 				8C10A5BB1E253B4300D5BDD9 /* icon_ios_global@2x.png in Resources */,
@@ -830,6 +852,7 @@
 				8C2761551DD2605D00862D98 /* London-360x400.jpg in Resources */,
 				8C2761A41DD48C3C00862D98 /* Settings Icon white@2x.png in Resources */,
 				8C246C5C1E2E311500D1B123 /* On@3x.png in Resources */,
+				8C270BBF1E44B36A0032E6EE /* index.html in Resources */,
 				8C10A5B11E253A2100D5BDD9 /* icon_ios_history.png in Resources */,
 				8C2761931DD48C3C00862D98 /* Feed Icon white@3x.png in Resources */,
 				8C10A5AE1E253A2100D5BDD9 /* icon_ios_glasses.png in Resources */,
@@ -880,6 +903,7 @@
 				8C66B4971DD77C1900DA6919 /* HistoryViewController.swift in Sources */,
 				8C2761261DD124A100862D98 /* AppDelegate.swift in Sources */,
 				8C27615F1DD268CD00862D98 /* FirstCollectionViewCell.swift in Sources */,
+				8C270BBD1E44B2EF0032E6EE /* AddWebViewViewController.swift in Sources */,
 				8C30A2FE1E34CCDF00D57495 /* PrivacyViewController.swift in Sources */,
 				8C246C3D1E2BECCB00D1B123 /* ConnectAccountViewController.swift in Sources */,
 				8C66B4A61DD797C600DA6919 /* SettingsViewController.swift in Sources */,
