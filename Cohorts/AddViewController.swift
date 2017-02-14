@@ -24,6 +24,7 @@ UINavigationControllerDelegate,UIScrollViewDelegate {
     @IBOutlet weak var bold_button: UIButton!
     @IBOutlet weak var created_photo: UIImageView!
     var timer: Timer! = nil
+    var shown: Bool! = false
     
 //    @IBOutlet weak var text_view: UITextView!
     let picker = UIImagePickerController()
@@ -123,8 +124,6 @@ UINavigationControllerDelegate,UIScrollViewDelegate {
         let alertController = UIAlertController(title: "Submit a new ...", message: "", preferredStyle: .actionSheet)
         let add_manualy = UIAlertAction(title: NSLocalizedString("Text Post", comment: "Add manualy"), style: .default, handler: {(action: UIAlertAction) -> Void in
             //Add your code
-            //            self.manual_select("weew")
-            //            print("cancel action")
         })
         let add_link = UIAlertAction(title: NSLocalizedString("Link", comment: "Add link"), style: .default, handler: {(action: UIAlertAction) -> Void in
             //Your code
@@ -150,28 +149,28 @@ UINavigationControllerDelegate,UIScrollViewDelegate {
     func checkSelection() -> Bool  {
         let selection = webView.stringByEvaluatingJavaScript(from: "window.getSelection().toString()")
         print("Link is: \(selection)")
-        if  selection != ""
+        if  selection != "" && shown
         {
-//            text_format.isHidden = true
-//            view_style.isHidden = false
-//            link_button.isHidden = false
-//            bold_button.isHidden = false
-//            italic_button.isHidden = false
+            text_format.isHidden = true
+            view_style.isHidden = false
+            link_button.isHidden = false
+            bold_button.isHidden = false
+            italic_button.isHidden = false
             return true
         }
         else
         {
-//            text_format.isHidden = false
-//            view_style.isHidden = true
-//            link_button.isHidden = true
-//            bold_button.isHidden = true
-//            italic_button.isHidden = true
+            text_format.isHidden = false
+            view_style.isHidden = true
+            link_button.isHidden = true
+            bold_button.isHidden = true
+            italic_button.isHidden = true
             return false
         }
-//        timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(checkSelection), userInfo: nil, repeats: true)
     }
     func keyboardWillShow(notification: NSNotification) {
         if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
+            shown = true
             let keyboardHeight = keyboardSize.height
            print("keyboardHeight: \(keyboardHeight)")
             print(keyboardHeight)
@@ -197,19 +196,13 @@ UINavigationControllerDelegate,UIScrollViewDelegate {
                 italic_button.isHidden = true
                 print("text_format.isHidden = false")
             }
-            view_style.isHidden = false
-            link_button.isHidden = false
-            bold_button.isHidden = false
-            italic_button.isHidden = false
         }
     }
-    func keyboardWillHide(notification: NSNotification) {
-        text_format.isHidden = true
-//            underline_button.isHidden = true
-//            bold_button.isHidden = true
-//            italic_button.isHidden = true
-        view_style.isHidden = true
 
+    func keyboardWillHide(notification: NSNotification) {
+        shown = false
+        text_format.isHidden = true
+        view_style.isHidden = true
     }
     
     func addTapped() {
@@ -249,7 +242,6 @@ UINavigationControllerDelegate,UIScrollViewDelegate {
     }
     
     @IBAction func normal_action(_ sender: Any) {
-//        document.execCommand('fontSize', false, '%i'
         webView.stringByEvaluatingJavaScript(from: "document.execCommand(\"fontSize\", false, \"15\"")
     }
     
@@ -268,10 +260,8 @@ UINavigationControllerDelegate,UIScrollViewDelegate {
             let jscode = String (format: "document.execCommand(\"CreateLink\", false, \"%@\")", linkTextField.text!)
             DispatchQueue.main.async {
                 self.webView.stringByEvaluatingJavaScript(from: jscode)
-                print("Link is: \(jscode))")
+                print("Link is: \(jscode)")
             }
-//            self.webView.stringByEvaluatingJavaScript(from: jscode)
-//            print("Link is: \(jscode))")
         })
         
         let cancelAction = UIAlertAction(title: "Cancel", style: .default, handler: {
